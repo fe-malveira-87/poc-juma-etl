@@ -1,4 +1,4 @@
-# 🚀 ETL Juma - Integração CISSPoder para BigQuery
+# 🚀 ETL - Integração CISSPoder para BigQuery
 
 Pipeline de dados desenvolvido em Python para extrair dados da API **CISSPoder** e carregar no **Google BigQuery** (Camada RAW). O projeto utiliza processamento paralelo, gerenciamento de dependências com **uv** e práticas de segurança para credenciais.
 
@@ -26,8 +26,8 @@ Este projeto não armazena credenciais no código. Antes de rodar, configure o a
 ### 1. Variáveis de Ambiente (.env)
 Crie um arquivo `.env` na raiz do projeto seguindo este modelo:
 
-API_BASE_URL_AUTH=[https://jumacim.dataciss.com.br:4665/cisspoder-auth/oauth/token](https://jumacim.dataciss.com.br:4665/cisspoder-auth/oauth/token)
-API_BASE_URL_SERVICE=[https://jumacim.dataciss.com.br:4665/cisspoder-service/](https://jumacim.dataciss.com.br:4665/cisspoder-service/)
+API_BASE_URL_AUTH=[https://cliente.dataciss.com.br:4665/cisspoder-auth/oauth/token](https://jumacim.dataciss.com.br:4665/cisspoder-auth/oauth/token)
+API_BASE_URL_SERVICE=[https://cliente.dataciss.com.br:4665/cisspoder-service/](https://jumacim.dataciss.com.br:4665/cisspoder-service/)
 API_USERNAME=seu_usuario
 API_PASSWORD=sua_senha
 API_CLIENT_ID=cisspoder-oauth
